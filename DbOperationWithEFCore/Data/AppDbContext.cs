@@ -10,5 +10,6 @@ namespace DbOperationWithEFCore.Data
             
         }
         public DbSet<Book> Book { get; set; }
+        public DbSet<Language> Language { get; set; }
     }
 }
